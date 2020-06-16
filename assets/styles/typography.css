@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Lobster";
+    src: url("/assets/fonts/Lobster-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+.slide-puzzle-header-section {
+    font-family: "Lobster",sans-serif;
+    text-transform: uppercase;
+}
+.slide-puzzle-header-section .slide-puzzle-header .slide-puzzle-header-txt{
+
+    color: #454141;
+    font-size: 40px;
+
+    margin: auto;
+}
+.slide-puzzle-header-section .moves-made #moves-made-txt{
+    margin-bottom: 3px;
+    font-size: 20px;
+    text-align: center;
+
+
+    color: #0ecb49;
+}
+.slide-puzzle-header-section .moves-made #moves-made-number{
+    text-align: center;
+
+    font-size: 20px;
+    color: #98b60c;
+}

@@ -1,0 +1,51 @@
+body {
+    webkit-transition: all;
+    webkit-transition-duration: 1s;
+    webkit-transition-timing-function: linear;
+}
+.slide-puzzle-header-section{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slide-puzzle-header-section .slide-puzzle-header {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+    width: 170px;
+    height: 70px;
+
+    display: flex;
+}
+.slide-puzzle-grid {
+    width: 800px;
+    height: 800px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+
+    position: relative;
+}
+.slide-puzzle-header-section .moves-made {
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 130px;
+    height: auto;
+}
+.slide-puzzle-grid .slide-puzzle-imgs {
+
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+
+    transition: all;
+    transition-duration: 1s;
+}
+
